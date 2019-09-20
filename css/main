@@ -1,0 +1,6 @@
+header, footer { 
+        font size: 50px;
+        line-height : 1.5;
+        margin: 1.25rem auto;
+
+}
