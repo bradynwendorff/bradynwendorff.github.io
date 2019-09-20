@@ -7,8 +7,8 @@ header{
         font-size: 15px;
         line-height : 1.5;
         margin: 1.5rem auto;
-        background-color: blue;
-        border-bottom:1px solid blue;
+        background-color: yellow;
+        
 
 }
 
@@ -17,4 +17,12 @@ footer{
     line-height: 1.0;
     margin: 1rem auto;
 
+}
+
+nav{
+    font: size 40px;
+}
+
+nav ul{
+    font-size: 10px;
 }
