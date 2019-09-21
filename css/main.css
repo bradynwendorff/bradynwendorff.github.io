@@ -7,7 +7,7 @@ header{
         font-size: 25px;
         line-height : 1.5;
         margin: 1.5rem auto;
-        background-color: blue;
+        background-color: rgb(20, 124, 158);
         text-align: center;
 
 }
@@ -16,13 +16,13 @@ footer{
     font-size:10px;
     line-height: 5;
     margin: 1rem auto;
-    background-color: blue;
+    background-color: rgb(20, 124, 158);
     text-align: center;
 }
 
 nav h2{
     font-size: 30px;
-    border-bottom:1px solid blue;
+    border-bottom:1px solid rgb(20, 124, 158);
     text-align: center;
 }
 
