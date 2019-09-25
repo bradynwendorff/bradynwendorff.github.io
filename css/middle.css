@@ -1,7 +1,17 @@
-@media only screen and (min-width: 32.5em) {
-    
-img{
-    float: right
+body{
+
 }
+
+main{
+display: grid;
+grid-template-columns: 1fr;
+font-size: 0.8rem;
+}
+
+
+/* Tablet Views *****************/
+@media only screen and (min-width: 37.5em) {
+    
+
 
 }

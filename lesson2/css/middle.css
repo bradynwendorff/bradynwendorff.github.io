@@ -1,0 +1,72 @@
+body{
+    padding: 10px 30px;
+}
+
+
+header{ 
+        font-size: 25px;
+        line-height : 1.5;
+        margin: 1.5rem auto;
+        background-color: rgb(20, 124, 158);
+        text-align: center;
+        font-family: 'Bitter', serif;
+
+}
+
+
+  
+
+h1{    
+    font-size: 2.5rem;
+    margin: 0.15rem;
+}
+
+footer{
+    font-size:10px;
+    line-height: 5;
+    margin: 1rem auto;
+    background-color: rgb(20, 124, 158);
+    text-align: center;
+}
+
+nav h2{
+    font-size: 30px;
+    border-bottom:1px solid rgb(20, 124, 158);
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+@media only screen and (max-width: 26em) {
+    
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: rgb(58, 243, 33);
+        padding: 10px;
+      }
+}
+
+/* Tablet Views *****************/
+@media only screen and (max-width: 64em) and (min-width: 26em) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: rgb(58, 243, 33);
+        padding: 10px;
+      }
+    }
+/* Desktop Views *******************************
+@media only screen and (min-width: 30em){
+
+    main{
+        grid-template-columns 1fr 1fr 1fr
+    }
+}
