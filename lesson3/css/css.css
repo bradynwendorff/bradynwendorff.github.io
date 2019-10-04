@@ -24,7 +24,8 @@ li a{
     font-size: 20px;
     text-decoration: none;
     border: 1px solid black;
-    box-shadow: 0 .5em 1.5em black}
+    box-shadow: 0 .5em 1.5em black
+}
 
 a {
     color: lightgrey;
@@ -35,6 +36,9 @@ a {
 div ul {
     display: flex;
     flex-direction: row;
+}
+
 
 }
-}
+
+
