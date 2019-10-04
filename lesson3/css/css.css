@@ -1,0 +1,40 @@
+
+
+div {
+    background-color: #36454f;
+    max-width: 84em;
+	text-align: center;
+    box-shadow: 0 2em 3em gray;
+    overflow: hidden;
+}
+
+div ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;    
+    list-style: none;
+}
+
+li a{
+    display: flex;
+    background-color: #140f20; 
+    margin: 1rem 2rem ;
+    padding: 2rem ;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 0 .5em 1.5em black}
+
+a {
+    color: lightgrey;
+}  
+
+    
+@media only screen and (min-width: 37.5em){
+div ul {
+    display: flex;
+    flex-direction: row;
+
+}
+}
