@@ -1,7 +1,7 @@
 
 
 div {
-    background-color: #36454f;
+    background-color: #5a5c51;
     max-width: 84em;
 	text-align: center;
     box-shadow: 0 2em 3em gray;
@@ -18,13 +18,13 @@ div ul {
 
 li a{
     display: flex;
-    background-color: #140f20; 
+    background-color: #5a5d51; 
     margin: 1rem 2rem ;
     padding: 2rem ;
     font-size: 20px;
     text-decoration: none;
     border: 1px solid black;
-    box-shadow: 0 .5em 1.5em black
+    box-shadow: 0 .5em 1.5em black;
 }
 
 a {
@@ -41,4 +41,67 @@ div ul {
 
 }
 
+.sun {
+    position: relative;
+    right: 10rem;
+    top: 2rem;
+}
 
+
+
+
+body{
+    padding: 10px 30px;
+    background-color: #bcd5d1
+}
+
+
+header{ 
+        font-size: 25px;
+        line-height : 1.5;
+        margin: 1.5rem auto;
+        background-color: #1d2120;
+        text-align: center;
+        font-family: 'bree', serif;
+}
+
+
+h1{    
+    font-size: 4rem;
+    margin: 1.35rem;
+    color:whitesmoke;
+    font-family: 'bree', serif;
+}
+
+h3{
+    font-size: 2rem;
+    margin: .25rem;
+    text-decoration: underline;
+    font-family: 'pt sans narrow', serif;
+}
+
+h4{
+    font-size: 2rem;
+    font-family: 'pt sans narrow', serif;
+}
+
+nav h2{
+    font-size: 30px;
+    border-bottom:1px solid rgb(20, 124, 158);
+    text-align: center;
+    font-family: 'pt sans narrow', serif;
+}
+
+footer{
+    font-size:5px;
+    line-height: 5;
+    margin: 1rem auto;
+    background-color: rgb(20, 124, 158);
+    text-align: center;
+    font-family: 'bree', seriff;
+}
+
+p{
+    font-size: 33px;
+    font-family: 'pt sans narrow', serif;
+}
