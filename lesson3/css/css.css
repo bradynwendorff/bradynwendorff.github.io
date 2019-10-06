@@ -38,7 +38,6 @@ div ul {
     flex-direction: row;
 }
 
-
 }
 
 .sun {
@@ -105,3 +104,14 @@ p{
     font-size: 33px;
     font-family: 'pt sans narrow', serif;
 }
+
+
+.active{
+    color: yellow;
+}
+
+
+
+a:hover {
+    background-color: #ba9077;
+  }
