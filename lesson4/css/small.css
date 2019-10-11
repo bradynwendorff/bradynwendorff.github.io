@@ -1,0 +1,206 @@
+body{
+    background-color: #bcd5d1;
+    padding:0px;
+    /*margin:10px;*/
+}
+
+main{
+    background-color: white;
+}
+
+
+
+header{ 
+    padding: 1px;
+    font-size: 25px;
+    line-height : 1.5;
+   /* margin: 1.5rem auto;*/
+    background-color: #1d2120;
+    text-align: center;
+    font-family: 'bree', serif;
+    color: white;
+}
+
+
+
+/*
+.sun {
+    position: relative;
+    right: 10rem;
+    top: 2rem;
+}
+
+*/
+
+
+nav {
+	margin: 0px auto;
+	max-width: 1160px;
+	background-color: #000;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+    display: flex;
+    justify-content: center;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+    display: flex;
+    justify-content: center;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+
+.content {
+    padding: 15px;
+    margin: 10px;
+    border: 1px dashed black;
+    background-color: whitesmoke;
+    color: gray;
+    
+}
+
+.box{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 10px;
+}
+
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  
+.responsive li {
+	display: block;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+
+div {
+    background-color: #5a5c51;
+    max-width: 84em;
+	text-align: center;
+    box-shadow: 0 2em 3em gray;
+    overflow: hidden;
+}
+
+div ul {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;    
+    list-style: none;
+}
+
+li a{
+    display: flex;
+    background-color: #5a5d51; 
+    margin: 1rem 2rem ;
+    padding: 2rem ;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 0 .5em 1.5em black;
+}
+
+a {
+    color: lightgrey;
+}  
+
+    
+@media only screen and (min-width: 37.5em){
+div ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+h1{    
+    font-size: 4rem;
+    margin: 1.35rem;
+    color:whitesmoke;
+    font-family: 'bree', serif;
+}
+
+h3{
+    font-size: 2rem;
+    margin: .25rem;
+    text-decoration: underline;
+    font-family: 'pt sans narrow', serif;
+}
+
+h4{
+    font-size: 2rem;
+    font-family: 'pt sans narrow', serif;
+}
+
+h2{
+    font-size: 30px;
+    border-bottom:1px solid rgb(20, 124, 158);
+    text-align: center;
+    font-family: 'pt sans narrow', serif;
+}
+
+footer{
+    font-size:5px;
+    line-height: 5;
+    margin: 1rem auto;
+    background-color: rgb(20, 124, 158);
+    text-align: center;
+    font-family: 'bree', seriff;
+}
+
+p{
+    font-size: 33px;
+    font-family: 'pt sans narrow', serif;
+}
+
+
+.active{
+    color: yellow;
+}
+
+
+
+a:hover {
+    background-color: #ba9077;
+  }*/
