@@ -16,16 +16,19 @@
 </head>
 <body>
     <header>
-          <!--  <img src="images/sun.png"  width="121" height="121" alt="Sun Picture"> -->
-        <h1>Weather Prepare </h1>
+        <h1>
+            Weather Prepare   
+            <img src="images/sun.png" class="sun" alt="Sun Picture">       
+        </h1>
+        <p>Be Prepared, Know The Weather</p>
     
     </header>
     <nav>
         <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776;
+            <li><a href="#" onclick="toggleMenu()">Menu &#9776;
             </a></li>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li><a href="#" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -43,11 +46,12 @@
     </main>
    
   <footer>
-            <h3> &copy; 2019 | Bradyn T. Wendorff | Alberta | <a href="https://www.byui.edu/online">BYUI Online Learning</a> | Last Modified: 
-            <span id="modify"></span>
-               <script src="js/lastmodified.js"> </script>
+            <h3> &copy; Weather Prepare | Attributions | Bradyn Wendorff 
+            <br/>
+                <span id="today" class="date"></span>
             </h3>
            </footer>  
            <script src="js/menu.js"></script> 
 </body>
 </html>
+

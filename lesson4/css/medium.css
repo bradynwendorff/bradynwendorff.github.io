@@ -14,4 +14,14 @@
 	.navigation li a {
 		color: yellow;
 	}
+	main{
+		margin: auto;
+		width: 75%;
+		padding: 40px;
+
+	}
+	footer{
+		width: 95%;
+		margin-top: -3px;
+	}
 }
