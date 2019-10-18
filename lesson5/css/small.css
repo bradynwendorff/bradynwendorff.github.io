@@ -1,0 +1,169 @@
+body{
+    background-color: #bcd5d1;
+    padding:0;
+    margin:0;
+}
+
+main{
+    background-color: white;
+}
+
+
+
+header{ 
+    padding: 1px;
+    font-size: 25px;
+    line-height : 1.5;
+    margin: 0;
+    background-color: #1d2120;
+    text-align: center;
+    font-family: 'bree', serif;
+    color: white;
+}
+
+
+.sun {
+    right: 10rem;
+    top: 2rem;
+    max-width: 15%;
+}
+
+
+nav {
+	margin: 0 auto;
+    background-color: #5a5c51;
+
+    
+}
+.navigation {
+
+	list-style: none;
+	text-align: center;
+    padding:1rem;
+    margin-top: -4px;
+    margin-bottom: 0px;
+    
+}
+.navigation li:first-child {
+    display: flex;
+    justify-content: center;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+    display: flex;
+    justify-content: center;
+	color: #fff;
+    padding: .75rem;
+    font-size: 1.5rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: rgb(151, 26, 26);
+	font-weight: 700;
+}
+
+
+.content {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: gray;
+    
+}
+
+.box{
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    border: 10px;
+}
+  
+.responsive li {
+	display: block;
+}
+
+h1{    
+    font-size: 4rem;
+    margin: 1.35rem;
+    color:whitesmoke;
+    font-family: 'bree', serif;
+}
+
+h3{
+    font-size: 1rem;
+    margin: .25rem;
+    text-decoration: underline;
+    font-family: 'pt sans narrow', serif;
+    color: lightgray;
+}
+
+h4{
+    font-size: 2rem;
+    font-family: 'pt sans narrow', serif;
+}
+
+h2{
+    font-size: 30px;
+    border-bottom:1px solid rgb(20, 124, 158);
+    text-align: center;
+    font-family: 'pt sans narrow', serif;
+    margin:0;
+}
+
+footer{
+    font-size:5px;
+    line-height: 3rem;
+    margin: 1rem auto;
+    margin-top:-1rem;
+    background-color: #5a5c51;
+    text-align: center;
+    font-family: 'bree', seriff;
+}
+
+header p{
+    font-size: 1.5rem;
+    font-family: 'pt sans narrow', serif;
+}
+
+
+.active{
+    background-color: black;
+}
+
+
+a:hover {
+    background-color: #ba9077;
+}
+
+.date{
+    color: lightgray;
+}
+
+.weatherback {
+    width: 100%;
+    height: auto;
+}
+
+.weatherpict{
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.summary{
+    position: 50px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: gray;
+    position: relative; 
+
+}

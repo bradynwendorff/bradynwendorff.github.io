@@ -1,0 +1,36 @@
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<META HTTP-EQUIV="refresh" CONTENT="60">
+<title>LOUNAS</title>
+<style type="text/css">
+body {
+    overflow:hidden;
+}
+</style>
+<script type="text/javascript"><!--
+var imlocation = "";
+ function ImageArray (n) {
+   this.length = n;
+   for (var i =1; i <= n; i++) {
+     this[i] = ' '
+   }
+ }
+image = new ImageArray(7);
+image[0] = 'sunday.jpg';
+image[1] = 'monday.jpg';
+image[2] = 'tuesday.jpg';
+image[3] = 'wednsday.jpg';
+image[4] = 'thursday.jpg';
+image[5] = 'friday.jpg';
+image[6] = 'saturday.jpg';
+var currentdate = new Date();
+var imagenumber = currentdate.getDay();
+document.write('<img src="' + imlocation + image[imagenumber] + '"> style="width:100%;height:100%;" border="0" /');
+//--></script></head>
+
+<body bgcolor="#000000">
+</body>
+
+</html>

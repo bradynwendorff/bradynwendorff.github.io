@@ -1,0 +1,31 @@
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 64rem) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: red;
+	}
+	main{
+		margin: auto;
+		width: 60%;
+		padding: 40px;
+
+	}
+	footer{
+		width: 85%;
+		margin-top: -3px;
+    }
+    
+
+}
+
+
