@@ -24,6 +24,55 @@
 		width: 95%;
 		margin-top: -3px;
 	}
+	a:hover {
+		background-color: #ba9077;
+	}
 
+	.sect{
+		display:flex;
+		justify-content: center;
+		color: black;
+		padding: .75rem;
+		font-size: 1.5rem;
+	}
+	.sect div{
+		display:flex;
+		flex-direction:column;
+		flex: 1 1 100%;
+		text-align: center;
+		border:solid gray;
+		
+	}
+	.sect div img{
+		margin-left:5%;
+		margin-right:5%;
+	}
+	.sect div p{
+		display: block;
+	}
+	.map{
+		display:block;
+		float:left;
+		margin: 20px;
+		max-width:50%;
 
+	}
+	.contact{
+		height:300px;
+	}
+	.contactinfo{
+		padding-top:1.5em;
+		padding-right: 1em;
+		font-size:25px;
+	}
+	.wolf{
+		display:block;
+		float:right;
+		max-width:50%;
+	}
+	.wolf2{
+		display:none;
+	}
 }
+
+

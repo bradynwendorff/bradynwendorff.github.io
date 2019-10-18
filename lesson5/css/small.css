@@ -66,29 +66,13 @@ nav {
 	font-weight: 700;
 }
 
-
-.content {
-    padding: 15px;
-    margin: 10px;
-    border: 1px solid black;
-    background-color: whitesmoke;
-    color: gray;
-    
-}
-
-.box{
-    position: relative;
-    margin: 10px auto;
-    padding: 10px;
-    border: 10px;
-}
   
 .responsive li {
 	display: block;
 }
 
 h1{    
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin: 1.35rem;
     color:whitesmoke;
     font-family: 'bree', serif;
@@ -104,6 +88,11 @@ h3{
 
 h4{
     font-size: 2rem;
+    font-family: 'pt sans narrow', serif;
+}
+
+h4{
+    font-size: 1em;
     font-family: 'pt sans narrow', serif;
 }
 
@@ -144,6 +133,13 @@ a:hover {
     color: lightgray;
 }
 
+.box{
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    border: 10px;
+}
+
 .weatherback {
     width: 100%;
     height: auto;
@@ -158,12 +154,49 @@ a:hover {
 }
 
 .summary{
-    position: 50px;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color:gray;
+    color: black;
+    opacity: .95;
+}
+
+.wolf2 {
+    display:block;
+    padding: 10px;
+    margin: 5px;
+    height: auto;
+    width: 90%;
+}
+.wolf{
+    display:none;
+}
+
+.contact{
+    text-align: center;
+    background-color: #ba9077;
+    margin-bottom: -20px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+
+.content {
     padding: 15px;
     margin: 10px;
     border: 1px solid black;
     background-color: whitesmoke;
-    color: gray;
-    position: relative; 
+    color: black;
+    
+}
 
+.sect{
+display: none;
+}
+.map{
+    display:none;
 }
