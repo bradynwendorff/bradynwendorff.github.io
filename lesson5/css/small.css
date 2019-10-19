@@ -29,11 +29,13 @@ header{
 }
 
 .banner{
-    font-size: 14px;
-    border: solid black;
+    font-size: 13px;
     padding: 9px;
     background-color: red;
-}
+    display: inline-block;
+    width:490px;
+    height: 25px;
+    }
 
 
 
@@ -72,7 +74,7 @@ nav {
 }
 .navigation a:hover {
 	color: #000;
-	background-color: rgb(151, 26, 26);
+	background-color:yellow;
 	font-weight: 700;
 }
 

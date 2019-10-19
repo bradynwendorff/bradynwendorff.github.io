@@ -12,7 +12,7 @@
 		flex: 1 1 100%;
 	}
 	.navigation li a {
-		color: red;
+		color: whitesmoke;
 	}
 	main{
 		margin: auto;
@@ -24,7 +24,12 @@
 		width: 85%;
 		margin-top: -3px;
     }
-    
+	.banner{
+		font-size: 30px;
+		width:1500px;
+		height: 29px;
+		
+	}
 
 }
 

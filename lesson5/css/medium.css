@@ -12,7 +12,7 @@
 		flex: 1 1 100%;
 	}
 	.navigation li a {
-		color: yellow;
+		color: whitesmoke;
 	}
 	main{
 		margin: auto;
@@ -72,6 +72,12 @@
 	}
 	.wolf2{
 		display:none;
+	}
+	.banner{
+		font-size: 20px;
+		width:1000px;
+		height: 25px;
+		
 	}
 }
 
