@@ -16,3 +16,7 @@ var year = d.getFullYear();
 
 var n = weekday + ", " + day + " " + month + " " + year;
 document.getElementById("today").innerHTML = n;
+
+
+
+

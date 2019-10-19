@@ -25,8 +25,18 @@ header{
 .sun {
     right: 10rem;
     top: 2rem;
-    max-width: 15%;
+    max-width: 55px;
 }
+
+.banner{
+    font-size: 14px;
+    border: solid black;
+    padding: 9px;
+    background-color: red;
+}
+
+
+
 
 
 nav {
