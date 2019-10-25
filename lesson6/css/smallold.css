@@ -5,6 +5,7 @@ body{
 }
 
 main{
+    position: relative;
     background-color: white;
 }
 
@@ -82,6 +83,15 @@ nav {
 .responsive li {
 	display: block;
 }
+
+main picture.logo{
+    width: 80%;
+    margin: 5% 5% 5% 0%;
+    position: relative;
+    float: right;
+}
+
+main picture.logo img {width:100%}
 
 h1{    
     font-size: 2.5rem;
@@ -167,14 +177,15 @@ a:hover {
 
 .summary{
     position: absolute;
-    top: 70px;
-    left: 25px;
+    top: -180px;
+    left: 1px;
     padding: 15px;
     margin: 10px;
     border: 1px solid black;
     background-color:gray;
     color: black;
     opacity: .95;
+    width: 13rem;
 }
 
 .wolf2 {
@@ -198,6 +209,7 @@ a:hover {
 
 
 .content {
+
     padding: 15px;
     margin: 10px;
     border: 1px solid black;
