@@ -1,11 +1,7 @@
-"use strict";
 
-function add() {
-    var x = Number(document.getElementById('x').innerHTML);
-    var y = Number(document.getElementById('y').innerHTML);
+var tempf = parseFloat(document.getElementById('temp').textContent);
+var winds = parseFloat(document.getElementById('wind').textContent);
 
-    document.getElementById('result').innerHTML = x+y;
-    return false;
-}
-
-document.getElementById('go').addEventListener('click', add);
+var wc = 35.74 + (0.6215 * tempf) - (35.75 * winds**0.16) + (0.4275 * tempf * winds**0.16)
+var n = wc.toFixed(2);
+document.getElementById("chill").innerHTML = n;
