@@ -212,3 +212,13 @@ display: none;
 .map{
     display:none;
 }
+
+main picture.logo{
+    width: 80%;
+    margin: 5% 5% 5% 0;
+    position: relative;
+}
+
+main.picture.logo img {
+    width:100%
+}
