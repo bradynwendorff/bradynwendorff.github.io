@@ -39,10 +39,22 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div class="box">
-            <div class="weatherpict">
+      <!--  <div class="box">-->
+<picture class="logo">
+
+    
+    <source srcset="images/large.jpg" media="(min-width:64rem)">
+    <source srcset="images/medium.jpg" media="(min-width: 32.5rem) and (max-width:63rem)">
+    <source srcset="images/small.jpg" media="(max-width: 32.4rem)">
+    <img src="images/large.jpg"alt="Main Weather Picture">
+        
+    
+
+
+<!--    <div class="weatherpict">
                 <img src="images/weather.jpg" class="weatherback" alt="Weather background Image">
             </div>
+        -->
             <div class="summary">
                 <h2>Summary               </h2>
                 <ul>
@@ -55,6 +67,7 @@
                     <li>Wind Speed <span class="currentweather">30 miles/hr</span></li>
                 </ul>
             </div>
+        </picture>
             <section class="sect">
                 <div>
                     <h5>Friday</h5>
@@ -105,6 +118,17 @@
                 </div>
             </div>
         </div>
+        
+        
+        
+        
+        <div id="x">5</div>
+<div id="y">8</div>
+<button id="go">+</button>
+
+<div id="result"></div>
+
+<script src="add_numbers.js"></script>
     </main>
    
   <footer>
@@ -115,6 +139,12 @@
            </footer>  
            <script src="js/menu.js"></script> 
            <script src="js/banner.js"></script>
+           <script src="js/windchill.js"></script>
+
+
+
+
+
 </body>
 </html>
 

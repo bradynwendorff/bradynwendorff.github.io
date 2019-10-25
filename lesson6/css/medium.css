@@ -79,6 +79,20 @@
 		height: 25px;
 		
 	}
+	.summary{
+		top: -200px;
+    	left: 1px;
+    	padding: 15px;
+    	margin: 10px;
+    	border: 1px solid black;
+    	background-color: gray;
+    	color: black;
+    	opacity: .95;
+    	width: 13rem;
+	}
+
+
+
 }
 
 
