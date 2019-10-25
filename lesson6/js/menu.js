@@ -18,5 +18,3 @@ var n = weekday + ", " + day + " " + month + " " + year;
 document.getElementById("today").innerHTML = n;
 
 
-var wind = 
-
