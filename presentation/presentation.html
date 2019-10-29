@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="presentation.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<h1>CSS Specificity</h1>
+
+<p class="p1" id="p2">The set of the <span>rules</span> applied to <span class="css" id = "css1">CSS</span> selectors in order to determine which style is applied to an element. The more specific a <span class="css" id="css1">CSS</span> style is, the higher point value it accrues, and the likelier it is to be present on the element's style.</p>
+
+<p id=why>It helps you understand why your stypes aren't being applied</p>
+
+
+<img src="images/spec.JPG" alt="specificy">
+
+
+<h2>Style Attributes</h2>
+<h4>If the element has an inline style, it automatically overrides all other styles</h4>
+<h3>(1,0,0,0)</h3>
+
+
+
+<h2>ID</h2>
+<h4>Add a 1 to the ID section for each ID selector denoted</h4>
+<h3>(0,1,0,0)</h3>
+
+
+
+<h2>Class, Pseudo-Class, Attribute</h2>
+<h4>Add a 1 to the Class, Pseudo-Class, Attribute section for each one denoted</h4>
+<h3>(0,0,1,0)</h3>
+
+
+
+<h2>Elements</h2>
+<h4>Add a 1 to the Elements section for each element selector denoted</h4>
+<h3>(0,0,0,1)</h3>
+
+<p id="example">Example:</p>
+
+<p id="example1">
+A:   h1 </br>
+B: #content h1 </br>
+C:  &lt;div id="content">&lt;h1 style="color: #fffff">Heading&lt;/h1&lt;/div>
+</p>
+<p id=explain>The specificity of A is 1 (one element)<br/>
+    The specificity of B is 101  (one ID reference and one element)</br>
+    The specificity of C is 1000 (inline styling)</br>
+</p>
+
+
+</p>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
