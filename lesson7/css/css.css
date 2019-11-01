@@ -8,6 +8,7 @@ h1 {
     border: 2px dashed rgba(114, 186, 94, 0.05);
     grid-template-columns: auto;
     justify-items: center;
+    grid-row-gap: 6em;
 
 }
 

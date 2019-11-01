@@ -1,0 +1,11 @@
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.container {
+		display: grid;
+		border: 2px dashed rgba(114, 186, 94, 0.05);
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		row-gap: 3rem;
+	}
+}
