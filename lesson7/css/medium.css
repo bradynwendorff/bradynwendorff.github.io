@@ -1,6 +1,50 @@
 
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: whitesmoke;
+	}
+	a:hover {
+		background-color: #ba9077;
+	}
+	.sect{
+		display:flex;
+		justify-content: center;
+		color: black;
+		padding: .75rem;
+		font-size: 1.5rem;
+	}
+	.sect div{
+		display:flex;
+		flex-direction:column;
+		flex: 1 1 100%;
+		text-align: center;
+		border:solid gray;
+		
+	}
+	.sect div img{
+		margin-left:5%;
+		margin-right:5%;
+	}
+	.sect div p{
+		display: block;
+	}
+
+
+
+	
+	
+	
 	.container {
 		display: grid;
 		border: 2px dashed rgba(114, 186, 94, 0.05);
