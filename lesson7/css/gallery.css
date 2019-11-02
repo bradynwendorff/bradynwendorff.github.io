@@ -105,7 +105,7 @@ p {
     row-gap: 3rem; 
 }
 
-span {
+#place {
     border: solid grey;
     text-align: center;
     background-color: #E8E8E8;
