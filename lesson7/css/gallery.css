@@ -104,8 +104,7 @@ p {
     justify-items: center;
     row-gap: 3rem; 
 }
-
-#place {
+.place {
     border: solid grey;
     text-align: center;
     background-color: #E8E8E8;
