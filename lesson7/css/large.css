@@ -25,11 +25,11 @@
 
 }
 
-picture:hover{
+#place:hover{
     box-shadow: 10px 10px 10px 10px gray;
 }
 
-picture {
+#place {
 	box-shadow: 4px 4px 6px 7px gray;
 	font-size: 2rem;
 
