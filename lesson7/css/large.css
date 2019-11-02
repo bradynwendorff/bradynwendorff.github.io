@@ -15,20 +15,14 @@
 		color: whitesmoke;
 	}	
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	.container {
 		display: grid;
-		border: 2px dashed rgba(114, 186, 94, 0.05);
-		grid-template-columns: 1fr 1fr 1fr;
+		border: 9px dashed rgba(114, 186, 94, 0.05);
+		grid-template-columns: 400px 400px 400px;
 		justify-items: center;
-		row-gap: 3rem;
+		row-gap: 6rem;
+		column-gap: 2rem;
+
 }
 
 picture:hover{
@@ -37,6 +31,8 @@ picture:hover{
 
 picture {
 	box-shadow: 4px 4px 6px 7px gray;
+	font-size: 2rem;
+
 }
 }
 
