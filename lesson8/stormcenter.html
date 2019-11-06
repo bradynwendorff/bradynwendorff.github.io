@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website gallery</title>
+    <meta name="description" content="Gallery webpage">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            Weather Prepare   
+            <img src="images/sun.png" class="sun" alt="Sun Picture">       
+        </h1>
+        <p>Be Prepared, Know The Weather</p>
+    
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">Menu &#9776;
+            </a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../lesson6/preston-6.html" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#" class="active">Storm Center</a></li>
+            <li><a href="#">Gallery </a></li>
+        </ul>
+    </nav>
+<main>
+   
+        <h1>Storm Center</h1>
+        <form method="GET" action="thanks.html" >
+ <fieldset>
+     <legend>
+         Applicant Information
+     </legend>
+    <label class="top">Full Name*<input type="text" name="name" pattern="[A-Za-z ]{5,50}" required></label>
+    <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" pattern="[0-9"></label>
+    <label class="top">Phone*<input type="tel" name="phone" placeholder="1234567890" required></label>
+    <label class="top">Zip Code*<input type="number" name="zip" required></label>
+ </fieldset>
+ 
+ 
+ 
+ <fieldset>
+     <legend>
+         Storm Information
+     </legend>
+
+
+ <div></div>
+ <label>Storm Date<input type="date" name="date"></label>
+
+
+
+
+ <label for="storm-type">Storm Type:</label>
+ <input list="storm" id="storm-type" name="storm=type" />
+        <datalist id="storm">
+            <option value="Flash Flood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
+        </datalist>
+
+
+        
+
+            <label for="rating">Rating (1 to 10):</label>
+		<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		<span id="ratingvalue">5</span><br>
+
+        <select>
+                <option disabled selected hidden>Select Region...</option>
+                <option value="preston">Preston</option>
+                <option value="sugarcity">Sugar City</option>
+                <option value="fishhaven">Fish Haven</option>
+              </select>
+            <div>User in-danger level
+              <label class="sbs"><input type="radio" name="danger" value="yes">yes</label>
+              <label class="sbs"><input type="radio" name="danger" value="maybe">maybe</label>
+              <label class="sbs"><input type="radio" name="danger" value="no">no</label>
+
+            <label for="story">Additional Information or comments</label>
+                <textarea name="additional information or comments"
+                    rows="5" cols="33">
+                </textarea>
+
+ </fieldset> 
+ <input class="submitBtn" type="submit" value = "Submit Storm Survey">
+ </form>
+ 
+
+
+
+
+
+
+
+<div class="contact">
+    <div class="contactinfo">
+    <h4>Weather Prepare</h4>
+    <p>10N 1st W <br/>
+    Preston, ID 83263
+    <br/>
+    &#9742; 999-999-999<br/>
+    &#9993; info@weatherprepare.com
+    </p>
+    </div>
+</div>
+</main>
+
+<footer>
+<h3> &copy; Weather Prepare | Attributions | Bradyn Wendorff 
+<br/>
+    <span id="today" class="date"></span>
+</h3>
+</footer>  
+<script src="js/menu.js"></script> 
+<script src="js/gallery.js" defer></script>
+<script src="js/adjustrating.js"></script>
+
+</body>
+</html>
