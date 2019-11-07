@@ -46,7 +46,7 @@ header{
     }
 
 
-nav {
+    nav {
 	margin: 0 auto;
     background-color: #5a5c51;
 
@@ -96,32 +96,7 @@ h1 {
 h2 {
     text-align: center;
 }
-p {
-    text-align: center;
-}
 
-.container {
-    display: grid;
-    grid-template-columns: 400px;
-    justify-items: center;
-    row-gap: 3rem; 
-}
-.place {
-    border: solid grey;
-    text-align: center;
-    background-color: #E8E8E8;
-    padding-bottom: 36px;
-    padding-top: 23px;
-}
-
-picture img[data-src] {
-    filter: blur(0.2em);
-}
-
-picture img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
 
 .contact{
     text-align: center;

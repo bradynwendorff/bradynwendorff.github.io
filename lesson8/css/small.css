@@ -4,7 +4,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
 
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
 
 /*---------------------------------form------------------------------------*/
 form fieldset{
@@ -23,7 +33,7 @@ form legend{
 form label.top, form div{
     display:block;
     padding-top: 1rem;
-    color: red;
+    color: black;
     font-size: .8rem;
 }
 
@@ -66,6 +76,9 @@ form label.top input:required:valid {
     border-left:green solid 6px;
 }
 
+form input.submitBtn:hover {
+    background-color:green;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

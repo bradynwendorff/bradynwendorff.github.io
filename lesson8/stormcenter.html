@@ -45,68 +45,52 @@
          Applicant Information
      </legend>
     <label class="top">Full Name*<input type="text" name="name" pattern="[A-Za-z ]{5,50}" required></label>
-    <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" pattern="[0-9"></label>
-    <label class="top">Phone*<input type="tel" name="phone" placeholder="1234567890" required></label>
-    <label class="top">Zip Code*<input type="number" name="zip" required></label>
+    <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+    <label class="top">Phone*<input type="tel" name="phone" placeholder="1234567890" pattern="[0-9]{7,15}" required></label>
+    <label class="top">Zip Code*<input type="number" name="zip" pattern="[0-9]{5,5}" required></label>
  </fieldset>
- 
- 
  
  <fieldset>
      <legend>
          Storm Information
      </legend>
+ <label class="top">Storm Date<input type="date" name="date"></label>
 
-
- <div></div>
- <label>Storm Date<input type="date" name="date"></label>
-
-
-
-
- <label for="storm-type">Storm Type:</label>
- <input list="storm" id="storm-type" name="storm=type" />
-        <datalist id="storm">
+ <label class="top" for="storm-type">Storm Type:
+ <input class="top" list="storm" id="storm-type" name="storm=type" />
+        <datalist id="storm" class="sbs">
             <option value="Flash Flood">
             <option value="Hail">
             <option value="Hurricane">
             <option value="Thunderstorm">
             <option value="Tornado">
         </datalist>
-
+ </label>
+            <label class="top" for="rating">Storm Severity (1 to 10):
+		<input  type="range" name="stormseverity" id="rating" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		<span id="ratingvalue">1</span></label><br>
 
         
-
-            <label for="rating">Rating (1 to 10):</label>
-		<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-		<span id="ratingvalue">5</span><br>
-
-        <select>
+            <label class="top">Region
+                    <select name="Region">
                 <option disabled selected hidden>Select Region...</option>
                 <option value="preston">Preston</option>
                 <option value="sugarcity">Sugar City</option>
                 <option value="fishhaven">Fish Haven</option>
-              </select>
-            <div>User in-danger level
-              <label class="sbs"><input type="radio" name="danger" value="yes">yes</label>
-              <label class="sbs"><input type="radio" name="danger" value="maybe">maybe</label>
-              <label class="sbs"><input type="radio" name="danger" value="no">no</label>
+              </select></label>
+              
+            <label class="top">User in-danger level</label>
+              <label class="sbs"><input type="radio" name="danger" value="yes">  Yes</label>
+              <label class="sbs"><input type="radio" name="danger" value="maybe">  Maybe</label>
+              <label class="sbs"><input type="radio" name="danger" value="no">  No</label>
 
-            <label for="story">Additional Information or comments</label>
+            <label class="top" for="story">Additional Information or comments</label>
                 <textarea name="additional information or comments"
                     rows="5" cols="33">
                 </textarea>
-
- </fieldset> 
- <input class="submitBtn" type="submit" value = "Submit Storm Survey">
- </form>
- 
-
-
-
-
-
-
+        </fieldset> 
+        <input class="submitBtn" type="submit" value = "Submit Storm Report" name="submit">
+        </form>
 
 <div class="contact">
     <div class="contactinfo">
