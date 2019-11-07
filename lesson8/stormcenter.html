@@ -47,7 +47,7 @@
     <label class="top">Full Name*<input type="text" name="name" pattern="[A-Za-z ]{5,50}" required></label>
     <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
     <label class="top">Phone*<input type="tel" name="phone" placeholder="1234567890" pattern="[0-9]{7,15}" required></label>
-    <label class="top">Zip Code*<input type="number" name="zip" pattern="[0-9]{5,5}" required></label>
+    <label class="top">Zip Code*<input type="number" name="zip" required></label>
  </fieldset>
  
  <fieldset>
@@ -84,7 +84,7 @@
               <label class="sbs"><input type="radio" name="danger" value="maybe">  Maybe</label>
               <label class="sbs"><input type="radio" name="danger" value="no">  No</label>
 
-            <label class="top" for="story">Additional Information or comments</label>
+            <label class="top" id="story" ffor="story">Additional Information or comments</label>
                 <textarea name="additional information or comments"
                     rows="5" cols="33">
                 </textarea>
