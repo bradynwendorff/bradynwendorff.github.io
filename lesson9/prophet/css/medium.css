@@ -1,0 +1,61 @@
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+
+.cards {
+    position: relative;
+    left: 6rem;
+    display: grid;
+    grid-template-columns: 226px 226px;
+    row-gap: .5rem;
+    column-gap: .5rem;
+    background-color: #DDDDDD;
+    padding: 0.25rem;
+    width: 29rem;
+    box-shadow: 10px 10px 10px 10px grey;
+
+}
+
+section{
+    
+    background-color: #B9B9CC;
+    align-content: center;
+    border: 1px solid #4D4D96;
+
+
+}
+
+
+img {
+    height: 150px;
+    width: 100px;
+    position: relative;
+    left: 30%;
+    right: 30%;
+    
+}
+
+h2 {
+    text-align: center;
+    color: #4D4D96
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #4D4D96;
+}
+
+footer{
+    font-size:20px;
+    line-height: 3rem;
+    margin: 1rem auto;
+    margin-top:1rem;
+    background-color: #B9B9CC;
+    text-align: center;
+    font-family: 'bree', seriff;
+}}
