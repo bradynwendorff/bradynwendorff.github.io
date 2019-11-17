@@ -1,6 +1,18 @@
 
 /* Media Query for large + screens */
 @media only screen and (min-width: 64rem) {
-
+	.tricities {
+		/* position: relative;*/
+		 left: 6rem;
+		 display: grid;
+		 grid-template-columns: 33% 33% 33%;
+		 row-gap: 1rem;
+		 column-gap: .5rem;
+		 background-color: #DDDDDD;
+		 padding: 0.25rem;
+		 width: 100%;
+		 height: 30rem;
+		 
+	 }
 }
 

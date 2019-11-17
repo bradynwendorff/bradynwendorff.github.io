@@ -14,6 +14,7 @@ fetch(requestURL)
         let yearFounded = document.createElement('p');
         let currentPopulation = document.createElement('p');
         let averageRainfall = document.createElement('p');
+        let div = document.createElement('div');
         let image = document.createElement("img");
         
 name.textContent = towns[i].name;
@@ -25,15 +26,16 @@ image.setAttribute('src', towns[i].photo);
 image.setAttribute('alt',towns[i].name + ' ' + towns[i].motto);
 
     if (name.textContent == 'Preston' || name.textContent == "Fish Haven" || name.textContent == "Soda Springs"){
-tri.appendChild(name);
-tri.appendChild(motto);
-tri.appendChild(yearFounded);
-tri.appendChild(currentPopulation);
-tri.appendChild(averageRainfall);
+div.appendChild(name);
+div.appendChild(motto);
+div.appendChild(yearFounded);
+div.appendChild(currentPopulation);
+div.appendChild(averageRainfall);
+tri.appendChild(div);
 tri.appendChild(image);
-    }
+    
 document.querySelector('div.tricities').appendChild(tri);
-
+    }
     }
 });
   
