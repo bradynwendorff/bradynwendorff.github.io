@@ -22,7 +22,8 @@ yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
 currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
 averageRainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
 image.setAttribute('src', towns[i].photo);
-    
+image.setAttribute('alt',towns[i].name + ' ' + towns[i].motto);
+
     if (name.textContent == 'Preston' || name.textContent == "Fish Haven" || name.textContent == "Soda Springs"){
 tri.appendChild(name);
 tri.appendChild(motto);
