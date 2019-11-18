@@ -55,14 +55,14 @@
 	 section {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-areas: "content image";
+		grid-template-areas: "image content";
 		margin: 1em;
 	}
 
 
-	 .tricities section:nth-child(1) {
+	 section:nth-child(1) {
 		grid-template-columns: 1fr 1fr;
-		grid-template-areas: "image content";
+		grid-template-areas: "img content";
 		padding-right: 1em;
 
 	 }
