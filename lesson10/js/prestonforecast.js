@@ -27,24 +27,32 @@ fetch(forecastURL)
 
 
                 var d = new Date(jsonObject.list[i].dt_txt);
-                //var res = d.slice(0, 3);
-                //if (d.includes("Fri")){
-                //    w = "Friday";
-               // }
-               // console.log(w);
-              
-
-
-             //   var totalWords = "foo love bar very much.";
-
-              //  var firstWord = d.replace(/ .*/,'');
+                var weekday = new Array(7);
+                weekday[0] = "Sunday";
+                weekday[1] = "Monday";
+                weekday[2] = "Tuesday";
+                weekday[3] = "Wednesday";
+                weekday[4] = "Thursday";
+                weekday[5] = "Friday";
+                weekday[6] = "Saturday";
                 
-              //  $('body').append(firstWord);
+                var n = weekday[d.getDay()];
+                
+                weekdays = "h5day" + a;
+                
+                
+                document.getElementById(weekdays).textContent = n;
+                
+                
+                
+                
+               // var n = d.getDate();
+                
 
 
 
 
-console.log(d);
+console.log(weekdays);
 
             }
         }
