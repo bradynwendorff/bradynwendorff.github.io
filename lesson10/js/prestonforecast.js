@@ -18,7 +18,7 @@ fetch(forecastURL)
                 document.getElementById(temp).textContent = list;
 
 
-                const imagesrc = 'https://openweathermap.org/img/w/' + jsonObject.list[i].weather[0].icon + '.png'; // note the concatenation
+                const imagesrc = 'https://openweathermap.org/img/wn/' + jsonObject.list[i].weather[0].icon + '.png'; // note the concatenation
                 const desc = jsonObject.list[i].weather[0].description; // note how we reference the weather array
                 icon = "day" + a;
                 document.getElementById(icon).setAttribute('src', imagesrc); // focus on the setAttribute() method
@@ -35,25 +35,13 @@ fetch(forecastURL)
                 weekday[4] = "Thursday";
                 weekday[5] = "Friday";
                 weekday[6] = "Saturday";
-                
+
                 var n = weekday[d.getDay()];
-                
+
                 weekdays = "h5day" + a;
-                
-                
+
+
                 document.getElementById(weekdays).textContent = n;
-                
-                
-                
-                
-               // var n = d.getDate();
-                
-
-
-
-
-console.log(weekdays);
-
             }
         }
     });

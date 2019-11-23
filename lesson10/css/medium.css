@@ -1,98 +1,111 @@
-
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
 	.navigation {
 		display: flex;
 	}
+
 	.navigation li:first-child {
 		display: none;
 	}
+
 	.navigation li {
 		display: block;
 		flex: 1 1 100%;
 	}
+
 	.navigation li a {
 		color: whitesmoke;
 	}
-	main{
+
+	main {
 		margin: auto;
 		width: 75%;
 		padding: 40px;
 
 	}
-	footer{
+
+	footer {
 		width: 95%;
 		margin-top: -3px;
 	}
+
 	a:hover {
 		background-color: #ba9077;
 	}
 
-	.sect{
-		display:flex;
+	.sect {
+		display: flex;
 		justify-content: center;
 		color: black;
 		padding: .75rem;
 		font-size: 1.5rem;
 	}
-	.sect div{
-		display:flex;
-		flex-direction:column;
+
+	.sect div {
+		display: flex;
+		flex-direction: column;
 		flex: 1 1 100%;
 		text-align: center;
-		border:solid gray;
-		
-	}
-	.sect div img{
-		margin-left:5%;
-		margin-right:5%;
-	}
-	.sect div p{
-		display: block;
-	}
-	.map{
-		display:block;
-		float:left;
-		margin: 20px;
-		max-width:50%;
+		border: solid gray;
 
 	}
-	.contact{
-		height:300px;
+
+	.sect div img {
+		margin-left: 5%;
+		margin-right: 5%;
 	}
-	.contactinfo{
-		padding-top:1.5em;
+
+	.sect div p {
+		display: block;
+	}
+
+	.map {
+		display: block;
+		float: left;
+		margin: 20px;
+		max-width: 50%;
+
+	}
+
+	.contact {
+		height: 300px;
+	}
+
+	.contactinfo {
+		padding-top: 1.5em;
 		padding-right: 1em;
-		font-size:25px;
+		font-size: 25px;
 	}
-	.wolf{
-		display:block;
-		float:right;
-		max-width:50%;
+
+	.wolf {
+		display: block;
+		float: right;
+		max-width: 50%;
 	}
-	.wolf2{
-		display:none;
+
+	.wolf2 {
+		display: none;
 	}
-	.banner{
+
+	.banner {
 		font-size: 20px;
-		width:1000px;
+		width: 1000px;
 		height: 25px;
-		
+
 	}
-	.summary{
+
+	.summary {
 		top: 5px;
-    	left: 1px;
-    	padding: 15px;
-    	margin: 10px;
-    	border: 1px solid black;
-    	background-color: gray;
-    	color: black;
-    	opacity: .95;
-    	width: 13rem;
+		left: 1px;
+		padding: 15px;
+		margin: 10px;
+		border: 1px solid black;
+		background-color: gray;
+		color: black;
+		opacity: .95;
+		width: 13rem;
 	}
 
 
 
 }
-
-
