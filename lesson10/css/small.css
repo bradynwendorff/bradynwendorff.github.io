@@ -230,6 +230,6 @@ main.picture.logo img {
     width: 100%
 }
 
-.openweathermap {
-    color: black;
+h3 a {
+    color: lightgray;
 }
