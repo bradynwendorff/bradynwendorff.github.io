@@ -1,0 +1,59 @@
+
+/* Media Query for large + screens */
+@media only screen and (min-width: 64rem) {
+
+
+	 .navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: whitesmoke;
+	}
+	a:hover {
+		background-color: #ba9077;
+	}
+	.sect{
+		display:flex;
+		justify-content: center;
+		color: black;
+		padding: .75rem;
+		font-size: 1.5rem;
+	}
+	.sect div{
+		display:flex;
+		flex-direction:column;
+		flex: 1 1 100%;
+		text-align: center;
+		border:solid gray;
+		
+	}
+	.sect div img{
+		margin-left:5%;
+		margin-right:5%;
+	}
+	.sect div p{
+		display: grid;
+	}
+	
+
+	 
+    .tricities {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .tricities section {
+       grid-template-columns: 1fr;
+       grid-template-areas: "content" "image";
+
+    }
+}
+

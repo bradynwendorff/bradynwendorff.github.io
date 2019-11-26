@@ -1,0 +1,14 @@
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    border: 2px dashed rgba(114, 186, 94, 0.05);
+    grid-template-columns: auto;
+    justify-items: center;
+    grid-row-gap: 6em;
+
+}
+
