@@ -238,3 +238,10 @@ section div span {
         margin-right: 0;
         font-weight: bold;
 }
+
+ .upcoming {
+    display: block;
+    border-style: solid;
+    margin: 1em;
+    border-color: gray;
+}
