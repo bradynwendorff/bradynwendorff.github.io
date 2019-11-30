@@ -17,6 +17,13 @@
 	a:hover {
 		background-color: #ba9077;
 	}
+
+	main {
+		margin: auto;
+		/*width: 75%;*/
+		padding: 5px;
+
+	}
 	.sect{
 		display:flex;
 		justify-content: center;
@@ -67,7 +74,8 @@
 
 	 }
 
-	/*section img {
-		text-align: center;
-	}*/
+	 section:nth-child(2){
+		 grid-template-columns: 1fr 1fr;
+		 
+	 }
 }

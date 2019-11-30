@@ -123,12 +123,18 @@ picture img {
     transition: filter 0.5s;
 }
 
+.map {
+    display: none;
+}
+
 .contact{
     text-align: center;
     background-color: #ba9077;
     margin-bottom: -20px;
     margin-right: -20px;
     margin-left: -20px;
+    height: 300px;
+   
 }
 
 h3{
