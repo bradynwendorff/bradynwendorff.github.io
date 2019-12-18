@@ -98,3 +98,7 @@ form input.submitBtn:hover {
   display: table;
   clear: both;
 }
+
+#address {
+ align-content: right;  
+}
