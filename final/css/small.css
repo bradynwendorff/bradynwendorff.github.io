@@ -12,8 +12,10 @@ body {
 
 /*----------- MAIN --------------*/
 main {
+
     padding: 0 2%;
     min-height: 20rem;
+    
 }
 
 /*---------------------------------form------------------------------------*/
@@ -101,4 +103,8 @@ form input.submitBtn:hover {
 
 #address {
  align-content: right;  
+}
+
+div #section {
+
 }
