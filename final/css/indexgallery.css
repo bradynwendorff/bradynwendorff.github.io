@@ -1,0 +1,158 @@
+header {
+    padding: 1px;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #1d2120;
+    text-align: center;
+    font-family: 'bree', serif;
+    color: white;
+}
+
+
+.sun {
+    right: 10rem;
+    top: 2rem;
+    max-width: 55px;
+}
+
+.banner {
+    font-size: 13px;
+    padding: 9px;
+    background-color: red;
+    display: inline-block;
+    width: 490px;
+    height: 25px;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+
+}
+
+header p {
+    font-size: 1.5rem;
+    font-family: 'pt sans narrow', serif;
+}
+
+
+.active {
+    background-color: black;
+}
+
+
+a:hover {
+    background-color: #ba9077;
+}
+
+.date {
+    color: lightgray;
+}
+
+
+nav {
+    margin: 0 auto;
+    background-color: #5a5c51;
+
+
+}
+
+.navigation {
+
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+    margin-top: -4px;
+    margin-bottom: 0px;
+
+}
+
+.navigation li:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: .75rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #000;
+    background-color: yellow;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.contactinfo {
+    padding-top: .5em;
+    padding-right: 1em;
+    font-size: 14px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #ba9077;
+    margin-bottom: -20px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+h3 {
+    font-size: 1rem;
+    /*margin: .25rem;*/
+    text-decoration: underline;
+    font-family: 'pt sans narrow', serif;
+    color: lightgray;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: 'pt sans narrow', serif;
+}
+
+
+footer {
+    font-size: 5px;
+    line-height: 3rem;
+    margin: 1rem auto;
+    margin-top: -1rem;
+    background-color: #5a5c51;
+    text-align: center;
+    font-family: 'bree', seriff;
+}
+
+.date {
+    color: lightgray;
+}
+
+h3 a {
+    color: lightgray;
+
+
+}
