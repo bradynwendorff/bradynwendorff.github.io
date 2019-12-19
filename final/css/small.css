@@ -8,14 +8,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
+
+
 }
 
 /*----------- MAIN --------------*/
 main {
 
     padding: 0 2%;
-    min-height: 20rem;
-    
+    min-height: 20rem;   
 }
 
 /*---------------------------------form------------------------------------*/
@@ -105,6 +106,64 @@ form input.submitBtn:hover {
  align-content: right;  
 }
 
-div #section {
+div .slide2 {
+    position: relative;
+    align-content: right;
+}
 
+div #section{
+    
+    max-width:100%
+}
+
+#mySlides{
+    max-width: 100%;
+}
+
+.tmple{
+    position:absolute;
+    right:33%;
+    left:39%;
+    top: 47%;
+
+}
+
+.tmple h1{
+    font-size: 1em;
+}
+.tmple h2{
+    font-size:.5em;
+}
+#res{
+    right:45%;
+    color:black;
+    text-decoration: none;
+    /*font-weight: bold;*/
+    font-size: small;
+
+}
+
+#reserv{
+    /*position: relative;
+    left: 45%;*/
+    border: black;
+    border-style: solid;
+    width: 96px;
+    height: 27px;
+    padding: 2px 0px 15px 6px;
+    background-color: white;
+}
+
+#reserv:hover{
+    
+    background-color: lightgray;
+    
+}
+
+div #reserv a:hover{
+    background-color:lightgray;
+}
+
+#res:hover{
+    color:blue;
 }

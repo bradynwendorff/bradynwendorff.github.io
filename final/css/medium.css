@@ -70,4 +70,58 @@
 		font-size: 25px;
 		height: 300px;
 	}
+	div .slide2 {
+    position: relative;
+    align-content: right;
+}
+
+div #section{
+    
+    max-width:100%
+}
+
+#mySlides{
+    max-width: 100%;
+}
+
+.tmple{
+    position:absolute;
+    right:33%;
+    left:33%;
+    top: 45%;
+
+}
+
+#res{
+    right:45%;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#reserv{
+    position: relative;
+    left: 45%;
+    border: black;
+    border-style: solid;
+    width: 169px;
+    height: 20px;
+    padding: 12px 22px 22px 22px;
+    background-color: white;
+}
+
+#reserv:hover{
+    
+    background-color: lightgray;
+    
+}
+
+div #reserv a:hover{
+    background-color:lightgray;
+}
+
+#res:hover{
+    color:blue;
+}
 }
