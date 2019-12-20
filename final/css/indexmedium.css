@@ -85,10 +85,11 @@ div #section{
 }
 
 .tmple{
-    position:relative;
-   /* right:33%;
-    left:33%;
-    top: 45%;*/
+    position: absolute;
+	margin: 0 -30% 0 -15%;
+	/*right: 16%;*/
+	width: 130%;
+
 
 }
 
@@ -101,13 +102,13 @@ div #section{
 }
 
 #reserv{
-    position: relative;
-    left: 45%;
+    /*position: relative;
+    left: 45%;*/
     border: black;
     border-style: solid;
-    width: 169px;
-    height: 20px;
-    padding: 12px 22px 22px 22px;
+    width: 96px;
+    height: 27px;
+    padding: 2px 0px 15px 6px;
     background-color: white;
 }
 
@@ -122,6 +123,18 @@ div #reserv a:hover{
 }
 
 #res:hover{
-    color:blue;
+	color:blue;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact {
+	text-align: center;
+	margin-bottom: -20px;
+	margin-left: -133px;
+	width: 143%;
 }
 }
